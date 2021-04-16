@@ -8,4 +8,4 @@
 
 <h2>Acerca de:</h2>
 
-En este repositorio usted podra encontrar una variedad algoritmos usados en el curso de ``ALGORITMOS Y ESTRUCTURA DE DATOS`` de la [Universidad Nacional de Ingeniría](https://www.uni.edu.pe/).
+En este repositorio usted podra encontrar una variedad algoritmos usados en el curso de ``ALGORITMOS Y ESTRUCTURA DE DATOS`` de la [Universidad Nacional de Ingeniería](https://www.uni.edu.pe/).
