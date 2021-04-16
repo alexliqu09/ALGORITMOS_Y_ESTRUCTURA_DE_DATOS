@@ -37,7 +37,8 @@ int main(){
 
     index = busqueda_lineal(array, size, clave);//Buscamos el indice en el arreglo.
 
-    if (index == -1){
+    if (index == -1)
+    {
         /*
             Si el indice es -1, entonces no  encontramos el número en el arreglo de 
             lo contrario si lo encontro e imprimira este.
