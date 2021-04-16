@@ -2,9 +2,9 @@
 <p>ALGORITMOS Y ESTRUCTURA DE DATOS</p>
 </h1>
 
-<center>
+<p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Uni-logo_transparente_granate.png" height ="20%" width="15%">
-</center>
+</p>
 
 <h2>Acerca de:</h2>
 
