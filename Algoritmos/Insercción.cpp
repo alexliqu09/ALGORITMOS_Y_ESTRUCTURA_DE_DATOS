@@ -4,7 +4,7 @@
 
 void llenar(int *, int);
 void print(int *, int);
-void intercambio(int *, int );
+void inserccion(int *, int );
 
 int main(){
 
@@ -14,7 +14,7 @@ int main(){
     std::cout <<"****Arreglo de Numeros****" <<std::endl;
     llenar(puntero, n);//LLamamos a la función llenar.
     print(puntero, n);//LLamamos a la función print.
-    intercambio(puntero, n); //LLamamos ala función intercambio.
+    inserccion(puntero, n); //LLamamos ala función intercambio.
     std::cout <<"****Ordenación de Arreglo de Numeros****" <<std::endl;
     print(puntero, n);//LLamamos a la función print.
 
@@ -50,21 +50,16 @@ void print(int* puntero, int size){
     std::cout <<std::endl;
 }
 
-void intercambio(int *puntero, int size){
-    /*
-    intercambio: 
-        -Esta función se encargara de realizar el ordenamiento del puntero.
-    Argumentos:
-        - puntero: El primer parámetro es un puntero de tipo (int).
-        - size: Este segundo parámetro de  tipo  (int) nos indicara el tamaño de este puntero.
-    */
-    for(int i=0; i < size - 1; i++){
-        for(int j = i + 1; j < size ; j++){
-            if(puntero[i] > puntero[j]){
-                int aux = puntero[i];
-                puntero[i] = puntero[j];
-                puntero[j] = aux;
+void inserccion(int* puntero, int size){
+    
+    int aux,j;
+    
+    for(int i = 1;i < size; i++){
+        aux = puntero[i];
+        for (j = i; j > 0 && aux < puntero[j-1]; j--){
+                puntero[j] = puntero[j-1];
             }
-        }
-    }
+        puntero[j] = aux;
+       }
+
 }
