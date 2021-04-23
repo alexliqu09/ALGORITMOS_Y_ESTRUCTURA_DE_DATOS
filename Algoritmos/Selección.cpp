@@ -54,11 +54,7 @@ void print(int* puntero, int size){
 void seleccion(int* puntero, int size){
     /*
     Selección: 
-        -Esta función se encargara de realizar el ordenamiento del puntero.
-         se usaran dos for  en el primero asignaremos al indiceMenor el primer elemento y
-         dentro del segundo for buscaremos el elemento minimo y capturamos su posición y
-         finalmente finalizado el segundo for realizamos una comparación i != indiceMenor
-         (i:índice del primer for)y si se cumple aplique swap.
+        -Esta función se encargara de realizar el ordenamiento del puntero mediante seleccion.
     Argumentos:
         - puntero: El primer parámetro es un puntero de tipo (int).
         - size: Este segundo parámetro de  tipo  (int) nos indicara el tamaño de este puntero.
