@@ -55,9 +55,6 @@ void intercambio(int *puntero, int size){
     /*
     intercambio: 
         -Esta función se encargara de realizar el ordenamiento del puntero.
-         consiste en el uso de dos sentencias for ,donde el elemento de la posición 
-         "i" se comparara con todos los demás elementos del puntero, donde si el elemento
-         de la posiciión j, (j = i + 1), es mayor utilzara un swap.
     Argumentos:
         - puntero: El primer parámetro es un puntero de tipo (int).
         - size: Este segundo parámetro de  tipo  (int) nos indicara el tamaño de este puntero.
