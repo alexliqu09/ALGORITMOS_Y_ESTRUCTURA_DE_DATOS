@@ -59,18 +59,18 @@ void seleccion(int* puntero, int size){
         - puntero: El primer parámetro es un puntero de tipo (int).
         - size: Este segundo parámetro de  tipo  (int) nos indicara el tamaño de este puntero.
     */
-    int indiceMenor, i, j;
+    int minimo_indice;
     for(int i=0; i < size - 1; i++){
-        indiceMenor = i;
+        minimo_indice = i;
         for(int j= i + 1; j < size; j++){
-            if(puntero[indiceMenor] > puntero[j]){
-                indiceMenor = j;               
+            if(puntero[minimo_indice] > puntero[j]){
+                minimo_indice = j;               
             }
         }
-            if(i != indiceMenor){
+            if(i != minimo_indice){
                 int aux = puntero[i];
-                puntero[i] = puntero[indiceMenor]; 
-                puntero[indiceMenor] = aux;               
+                puntero[i] = puntero[minimo_indice]; 
+                puntero[minimo_indice] = aux;               
             }
     }
 }
