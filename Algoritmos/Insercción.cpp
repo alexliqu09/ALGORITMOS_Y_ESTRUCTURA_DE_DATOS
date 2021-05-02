@@ -60,6 +60,6 @@ void inserccion(int* puntero, int size){
                 puntero[j] = puntero[j-1];
             }
         puntero[j] = aux;
-       }
+    }
 
 }
